@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles/style.css" rel="stylesheet">
+        <script src="myScript.js"></script>
+        <script src="https://kit.fontawesome.com/14f648ca8e.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap" rel="stylesheet">
+        <title>Jess Studio</title>
+    </head>
+    <body>
+        <header>
+            <div class="title">
+                <h1 class="title_left">JESS</h1>
+                <div class="logo_container">
+                   <img src="images/logo.png" alt="appareil photo" class="images">
+                </div>
+                <h1 class="title_right">STUDIO</h1>
+            </div>
+            <hr class="shadow_line">
+            <nav>
+                <ul>
+                <li><a href="">ACCUEIL</a></li>
+                <li><a href="">PRESTATION</a></li>
+                <li><a href="">LES PRESTATIONS</a></li>
+                <li><a href="">CONTACT</a></li>
+                </ul>
+            </nav>
+            <hr class="shadow_line second_shadow_line">
+        </header>
+        <main>
+            <section>
+                <div class="slideshow-container">
+                    <div class="mySlides fade" style="display:block">
+                        <img src="images/carousel_1.jpeg" alt="appareil photo">
+                        <div class="text">
+                            <h2>APPAEIL PRO</h2>
+                            <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."</p>
+                        </div>
+                    </div>
+                    <div class="mySlides fade" style="display:none">
+                        <img src="images/carousel_2.jpeg" alt="nature en noir et blanc">
+                        <div class="text">
+                            <h2>APPAEIL PRO</h2>
+                            <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."</p>
+                        </div>
+                    </div>
+                    <div class="mySlides fade" style="display:none">
+                        <img src="images/carousel_3.jpeg" alt="coucher de soleil">
+                        <div class="text">
+                            <h2>APPAEIL PRO</h2>
+                            <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."</p>
+                        </div>
+                    </div>
+                    <div class="mySlides fade" style="display:none">
+                        <img src="images/carousel_4.jpeg" alt="photographe">
+                        <div class="text">
+                            <h2>APPAEIL PRO</h2>
+                            <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="dots">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
+            </section>
+            <section class="presentation">
+                <i class="fas fa-quote-left icon_left"></i>
+                <h2>BIENVENUE SUR LE SITE JESSY</h2>
+                <p>PHOTOGRAPHE POLYVALENTE</p>
+                <p>N'HESITEZ PAS A NOUS CONTACTER SUR <span>CETTE PAGE</span></p>
+                <i class="fas fa-quote-right icon_right"></i>
+            </section>
+            <hr class="separation_lign">
+            <section>
+                <h3 class="last_title">LES SERVICES</h3>
+                <div class="img_section">
+                    <figure>
+                        <div class="img_container">
+                            <img src="images/star_wars.jpeg" alt="affiche star wars" class="images">
+                        </div>
+                        <figcaption>Graphisme</figcaption>
+                    </figure>
+                    <figure>
+                        <div class="img_container">
+                            <img src="images/stairs.jpeg" alt="escalier en colimaçon" class="images">
+                        </div>
+                        <figcaption>Photo artistique</figcaption>
+                    </figure>
+                    <figure>
+                        <div class="img_container">
+                            <img src="images/woman.jpeg" alt="femme" class="images">
+                        </div>
+                        <figcaption>Photos en studio</figcaption>
+                    </figure>
+                    <figure>
+                        <div class="img_container">
+                            <img src="images/escaltors.jpeg" alt="escalators" class="images">
+                        </div>
+                        <figcaption>E-commerce</figcaption>
+                    </figure>
+                </div>
+            </section>
+            <hr class="separation_lign">
+        </main>
+    </body>
+</html>
